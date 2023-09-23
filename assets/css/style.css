@@ -1,0 +1,130 @@
+@import url(root.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none;
+}
+.new{background-color: #F8F2E4;
+    border: 2px solid black;
+}
+.veer{
+    /* border-left: 2px solid black; */
+    border-right: 2px solid black;
+}
+.bg-color{
+    background-color: #F8F2E4;
+}
+.btn3{ border: 2px solid black;
+    background-color: #FFD600;
+    padding: 8px 10px;
+}
+.min{
+    color: #FF0000;
+}
+.color3{
+    color: #00A106;
+}
+.mint{
+    color: #000;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+.border-none{
+    border: none;
+}
+.reev{
+    /* border-left: 2px solid black; */
+    border-right: 2px solid black;
+}
+.center{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.on{
+    /* border-right: 1px solid black; */
+}
+.vee{
+       border-left: 2px solid black; 
+       border-right: 2px solid black;
+}
+.box{
+    border: 1px solid black;
+}
+.mw-400{
+    max-width: 400px;
+}
+.pt-86{
+    padding-top: 86px;
+}
+.prev{
+    background:transparent;
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+.accordion-button::after {
+    content: "";
+    font-size: 24px;
+    margin-left: auto;
+    background-image: url(../image/kli.png) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/hjk.png) !important;
+    height: 5px;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+.bb-2 {
+    border-bottom: 2px solid black;
+}
+.accordion-button:focus {
+    border-color: var(--bs-accordion-btn-focus-border-color);
+    outline: 0;
+    z-index: 3;
+    box-shadow: none !important;
+}
+ul {
+    margin-top: 0 !important;
+}
+.accordion {
+    --bs-accordion-bg: none !important;
+    background-color: none !important;
+    --bs-accordion-active-bg: none !important;
+}
+ol li {
+    list-style-type: decimal !important;
+}
+.bb-2{
+    border-bottom: 2px solid black;
+}
+.slick-card{
+    border-right: 2px solid #000000;
+    height: 287px !important;
+}
+.bx-2{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.tweet{
+    color: #000;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Perpetua Titling MT',sans-serif;
+font-size: 80px;
+}
+.next{
+    background: transparent;
+    border: none;
+}
+.yui{
+    height: 22px;
+    width: 22px;
+}
+.ml-10{
+    margin-left: 10px;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600&display=swap');
+:root{
+/* fontsize */
+    --fs-16: 16px;
+    --fs-14: 14px;
+    --fs-18: 18px;
+    --fs-36: 36px;
+    --fs-80: 80px;
+    --fs-50: 50px;
+/* fontwait */
+    --fw-400:400;
+    --fw-600:600;
+    --fw-300:300;
+    --fw-500:500;
+}
+/* fontsize */
+.fs-16{
+    font-size: var(--fs-16);
+}
+.fs-14{
+    font-size: var(--fs-14);
+}
+.fs-18{
+    font-size: var(--fs-18);
+}
+.fs-36{
+    font-size: var(--fs-36);
+}
+.fs-80{
+    font-size: var(--fs-80);
+}
+.fs-50{
+    font-size: var(--fs-50);
+}
+/* fontwait */
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-600{
+    font-weight: var(--fw-600);
+}
+.fw-300{
+    font-weight: var(--fw-300);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+.ff-Noto{
+    font-family: 'Noto serif',sans-serif !important;
+}
+@media (max-width:576px) {
+    .tweet{
+        font-size: var(--fs-50) !important;
+    }
+}
